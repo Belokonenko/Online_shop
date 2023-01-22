@@ -1,0 +1,50 @@
+.header {
+  background-color: $color-main-black;
+  
+  &__wrap-menu-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 70px;
+  }
+  
+  &__menu-list {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex:1 1 auto;
+    flex-wrap: wrap;
+    font-size: 0.9rem; 
+    max-width: 600px;
+    
+    border: 1px solid red;
+  }
+  
+  &__menu-item {
+    display: flex;
+    align-items: center;
+     
+    border: 1px solid red;
+  }
+
+  &__login {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    &::before {
+      content: url(../../img/svg/icon-login.svg);
+      margin-right: 10px;
+      border: 1px solid red;
+
+    }
+  } 
+  
+  &__burger-btn--active
+  {
+    display: block; 
+  }
+  
+  a{
+    color: $color-txt-main-light;
+  }
+}

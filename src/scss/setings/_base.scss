@@ -1,0 +1,46 @@
+@import"./_var.scss";
+// &display=swap (добавить в конце)
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap);
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+
+body{
+  // min-width: 320px;
+  // max-width: 1920px;
+  width: auto;
+  border: solid 1px red;
+  margin: auto;
+}
+
+.container{
+  max-width: 1590px;
+  padding: 0 15px;
+  margin:auto;
+  border: solid 1px red;
+}
+
+.main {
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1 h2 h3 {
+}
+
+
+

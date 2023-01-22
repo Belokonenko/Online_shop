@@ -1,11 +1,12 @@
 // --- glob ---
-@import "../vendor/_normalize.scss";
-@import "../setings/base";
-@import "../setings/fonts";
-@import "../setings/var";
+@import "../vendor/normalize.scss";
+@import "setings/base";
+@import "setings/fonts";
+@import "setings/var";
 @import "../vendor/break-point";
 // --- /glob ---
 // --- fonts ---
 // --- /fonts ---
 // --- parts ---
+@import "../parts/_header/_header.scss"
 // --- /parts ---
